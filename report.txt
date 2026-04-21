@@ -1,0 +1,8 @@
+All 5 functions were called 5 times each.
+The program ran too fast to measure any time (0.00 seconds for all).
+
+The call order is: main -> heavyTask -> mixedWorkload -> fib/computePrimeLike/randomWork
+
+The most notable finding is that fib() called itself
+recursively 109,450 times which means it would be the
+slowest function with larger inputs.
